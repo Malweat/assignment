@@ -172,7 +172,7 @@ header .hero {
   color: rgba(0, 0, 0, 0.5);
 }
 
-/* -----Feedback----- */
+/* -----Feedback and users rating----- */
 .feedback {
   margin-top: 116px;
 
@@ -249,5 +249,131 @@ header .hero {
 
 .author-detail span {
   color: #757575;
+  font-size: 16px;
+}
+
+
+/* -----Ready to Focus---- */
+.focus{
+  margin-top: 116px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.focus h6{
+  font-size: 50px;
+  color: var(--secondaryColor);
+  font-weight: bold;
+}
+
+.focus p{
+  color: #00000080;
+  font-size: 14px;
+}
+
+.focus img{
+  border-radius: 48px;
+}
+
+
+
+/* -----Message option-------- */
+.message{
+  margin-top: 116px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 110px;
+}
+
+.message h6{
+  color: var(--secondaryColor);
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.message form{
+  width: 500px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 19px;
+}
+
+.message form .input-group{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-group label{
+  font-size: 18px;
+  color: var(--secondaryColor);
+  font-weight: 600;
+}
+
+.input-group input,
+.input-group textarea{
+  font-size: 20px;
+  padding: 20px 32px;
+  border: 1px solid #75757557;
+  border-radius: 10px;
+}
+
+.input-group textarea{
+  resize: none;
+}
+
+.input-group button{
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+
+/* --------Footer--------- */
+footer{
+  margin-top: 116px;
+  width: 100%;
+  padding: 30px 20px;
+}
+.footer{
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-logo{
+  font-size: 100px;
+  font-weight: bold;
+  color: var(--primaryColor);
+}
+
+.footer p{
+  color: #8987A1;
+  font-size: 16px;
+}
+
+.footer nav{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer nav a{
+  color: #8987A1;
   font-size: 16px;
 }
